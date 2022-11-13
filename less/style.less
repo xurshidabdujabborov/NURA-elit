@@ -1,0 +1,58 @@
+@import "./params/mix";
+@import "./header.less";
+@import "./main.less";
+@import "./center.less";
+@import "./location.less";
+@import "./videos.less";
+@import "./texnalogiy.less";
+@import "./work.less";
+@import "./owl.less";
+@import "./bottom.less";
+@import "./footer.less";
+
+body {
+  font-family: "Lato", "san-serif";
+}
+
+.activeBars {
+  display: none;
+  .md(display, block);
+}
+
+.activeMenuBars {
+  display: block;
+  .md(display, none);
+}
+
+h2.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: white;
+  margin: 20px 0px;
+  .sm-block({
+    font-size: 25px;
+    line-height: 30px;
+  })
+}
+
+p.text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  color: white;
+  .sm-block({
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  })
+}
+.errorMsg {
+  color: rgb(255, 0, 0);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: none;
+}

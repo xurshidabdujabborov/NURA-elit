@@ -1,0 +1,38 @@
+footer{
+    width: 100%;
+    margin-top: 100px;
+    ul{
+       display: flex;
+       justify-content: center;
+       .sm-block({
+        flex-direction: column
+       });
+       li{
+        margin: 0px 60px;
+        .md-block({
+          margin: 0px 20px;
+        });
+        a{
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 22px;
+            color: black;   
+            &:hover{
+                cursor: pointer;
+                transition: 1s;
+                color: #DBA069;
+            }
+        }
+       }
+    }
+    a{
+        margin-top: 22px;
+        text-align: center;
+        display: block;
+        color: #842231;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-bottom: 28px;
+    }
+}

@@ -1,0 +1,142 @@
+header{
+    width: 100%;
+    background-image: url("../img/Фон.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    nav{
+        padding: 85px 0px;
+        .box{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding-bottom: 25px;
+            .md-block({
+              width: 100%;
+              justify-content: left;
+              margin-top: 20px;
+            });
+            img{
+                margin: 0px 10px;
+            }
+            span{
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 24px;
+                color: white;  
+                &:hover{
+                    cursor: pointer;
+                    transition: 1s;
+                    color: #DBA069;
+                }  
+            }
+        }
+        .bars {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+              border-color: #DBA069;
+              color: #DBA069;
+            }
+            .fa {
+              font-size: 30px;
+            }
+          }
+        ul{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            .md-block({
+                flex-direction: column;
+                margin-top: 10px;
+                width: 100%;
+              });
+            li{
+                padding: 0px 20px;
+                .md-block({
+                    padding-bottom: 5px;
+                    width: 100%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    margin: 5px 0px;
+                });
+                a{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19px;
+                    color: white;
+                    letter-spacing: 1px;
+                    &:hover{
+                        cursor: pointer;
+                        transition: 1s;
+                        color: #DBA069;
+                    }
+                }
+            }
+        }
+    }
+    .headerTitle{
+        width: 100%;
+        padding-top: 150px;
+        padding-bottom: 250px;  
+        button{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+            padding: 20px 30px;
+            color: black;
+            background-color: #DBA069;
+            border: none;
+            &:hover{
+                background: #842231;
+                color: white;
+                border: none;
+                cursor: pointer;
+                transition: 1s;
+            }
+            .sm-block({
+                font-size: 12px;
+                padding: 10px 10px;
+            })
+        }
+        .var{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            .sm-block({
+             flex-direction: column;
+             align-items: center;
+            });
+            .img{
+                display: flex;
+                .sm-block({
+                  margin: 30px 0px;
+                });
+                span{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    color: white; 
+                    margin-left: 20px;
+                    .sm-block({
+                       
+                        line-height: 70px;
+                       font-size: 15px;
+                    })
+                }
+            }
+        }
+        p{
+           display: flex;
+           justify-content: right;
+           align-items: center;
+           .md-block({
+            margin-top: 50px;
+            justify-content: center;
+           })
+        }
+    }
+}

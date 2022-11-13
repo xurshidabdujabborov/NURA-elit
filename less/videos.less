@@ -1,0 +1,28 @@
+.videos{
+    width: 100%;
+    margin-top: 100px;
+    .videoPlayer {
+        position: relative;
+        .md(margin-top , 50px);
+        video {
+          width: 100%;
+        }
+        .fa {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: white;
+          color: blue;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .fa-pause {
+          display: none;
+        }
+      }
+}
